@@ -1,0 +1,306 @@
+.transport-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  margin-right: 100px; /* Space for navbar */
+}
+
+.transport-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.transport-header h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.transport-header p {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.transport-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.venue-info {
+  margin-bottom: 50px;
+}
+
+.venue-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.venue-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.venue-details h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.venue-details p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.map-btn {
+  background: white;
+  color: #667eea;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.map-btn:hover {
+  transform: translateY(-2px);
+}
+
+.transport-options h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.transport-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.transport-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.transport-card:hover {
+  transform: translateY(-10px);
+}
+
+.transport-icon {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.transport-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transport-details p {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.transport-details strong {
+  color: #333;
+}
+
+.transport-details ul {
+  margin: 10px 0 15px 20px;
+  color: #666;
+}
+
+.transport-details li {
+  margin-bottom: 5px;
+}
+
+.book-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.book-btn:hover {
+  transform: translateY(-2px);
+}
+
+.accommodation-info {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.accommodation-info h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 15px;
+}
+
+.accommodation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.hotel-card {
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 15px;
+  border-left: 4px solid #667eea;
+  transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+  transform: translateY(-5px);
+}
+
+.hotel-card h4 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hotel-card p {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.contact-transport {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-transport h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 15px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f8f9fa;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.contact-item span {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.contact-item p {
+  margin: 0;
+  color: #666;
+}
+
+.contact-item strong {
+  color: #333;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .transport-container {
+    margin-right: 50px;
+    padding: 20px 15px;
+  }
+  
+  .transport-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .venue-card {
+    padding: 30px 20px;
+  }
+  
+  .venue-card h2 {
+    font-size: 2rem;
+  }
+  
+  .transport-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .transport-card {
+    padding: 25px 20px;
+  }
+  
+  .accommodation-info,
+  .contact-transport {
+    padding: 30px 20px;
+  }
+  
+  .accommodation-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .transport-container {
+    margin-right: 30px;
+  }
+  
+  .transport-header h1 {
+    font-size: 2rem;
+  }
+  
+  .venue-card h2,
+  .transport-options h2,
+  .accommodation-info h2,
+  .contact-transport h2 {
+    font-size: 2rem;
+  }
+  
+  .contact-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
